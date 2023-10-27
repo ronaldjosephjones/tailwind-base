@@ -1,0 +1,27 @@
+name: Publish to Cloudflare R2
+
+on:
+  workflow_dispatch:  # Manually trigger this workflow
+  
+jobs:
+  publish-to-cloudflare:
+    runs-on: ubuntu-latest
+    steps:
+    - name: Checkout code
+      uses: actions/checkout@v2
+
+    - name: Install Cloudflare R2 CLI
+      run: |
+        curl -sL https://cloudflare.com/r2/install.sh | sh
+
+    - name: Authenticate with Cloudflare R2
+      run: |
+        r2 auth <YOUR_CLOUDFLARE_EMAIL> <YOUR_CLOUDFLARE_API_KEY>
+
+    - name: Publish file to Cloudflare R2
+      run: |
+        r2 upload /path/to/file.txt / filename.txt
+
+    - name: Clean up
+      run: |
+        rm -rf /path/to/file.txt
