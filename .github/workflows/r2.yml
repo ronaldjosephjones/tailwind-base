@@ -20,8 +20,4 @@ jobs:
 
     - name: Publish file to Cloudflare R2
       run: |
-        r2 upload /path/to/file.txt / filename.txt
-
-    - name: Clean up
-      run: |
-        rm -rf /path/to/file.txt
+        r2 upload ./out/output.css / base-tw.css
