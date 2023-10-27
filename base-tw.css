@@ -360,10 +360,7 @@
         @apply order-last;
     }
      #header {
-        @apply mb-px grid grid-cols-[auto,
-        auto,
-        auto] lg:mb-0 lg:grid-cols-[auto,
-        1fr];
+        @apply mb-px grid grid-cols-[auto,auto,auto] lg:mb-0 lg:grid-cols-[auto,1fr];
     }
     #header--logo {
         @apply col-span-full row-start-2 flex w-[clamp(200px,
