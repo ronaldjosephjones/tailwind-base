@@ -20,7 +20,7 @@ jobs:
         run: npm install
 
       - name: Compile Tailwind CSS
-        run: npx tailwindcss build -i ./base-tw.css -o ./src/styles/output.css # Replace with your specific paths
+        run: npx tailwindcss build -i ./base-tw.css -o ./out/output.css # Replace with your specific paths
 
       - name: Commit changes
         run: |
