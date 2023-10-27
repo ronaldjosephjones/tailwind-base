@@ -343,7 +343,7 @@
 @layer components {
 
  
-  .grid-cols-[auto,1fr] {
+  .grid-cols-[auto\,1fr] {
     grid-template-columns: auto 1fr;
   }
   .grid-cols-\[auto\,auto\,auto\] {
