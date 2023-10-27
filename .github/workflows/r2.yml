@@ -16,7 +16,7 @@ jobs:
 
     - name: Authenticate with Cloudflare R2
       run: |
-        r2 auth <YOUR_CLOUDFLARE_EMAIL> <YOUR_CLOUDFLARE_API_KEY>
+        r2 auth ${{ secrets.YOUR_CLOUDFLARE_EMAIL }} ${{ secrets.CLOUDFLARE_R2_API }} 
 
     - name: Publish file to Cloudflare R2
       run: |
