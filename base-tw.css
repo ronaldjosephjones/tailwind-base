@@ -363,9 +363,7 @@
         @apply mb-px grid grid-cols-[auto,auto,auto] lg:mb-0 lg:grid-cols-[auto,1fr];
     }
     #header--logo {
-        @apply col-span-full row-start-2 flex w-[clamp(200px,
-        25vw,
-        350px)] items-center justify-start px-4 py-2 z-10 lg:col-span-1 lg:row-span-3 lg:py-4;
+        @apply col-span-full row-start-2 flex w-[clamp(200px,25vw,350px)] items-center justify-start px-4 py-2 z-10 lg:col-span-1 lg:row-span-3 lg:py-4;
     }
     #header--territory {
         @apply col-span-2 col-start-1 row-start-1 flex w-full items-center justify-evenly bg-brand-dark px-4 py-2 text-center text-white lg:col-start-2 lg:row-start-1 lg:h-[44px] lg:w-fit lg:justify-self-end lg:p-0;
