@@ -22,10 +22,6 @@ jobs:
       - name: Install Dependencies
         run: npm install
 
-      # Install NPM dependencies
-      - name: Install PostCSS
-        run: npm install postcss postcss-cli --save-dev
-
       # Compile Tailwind CSS
       - name: Compile Tailwind CSS
         run: npx tailwindcss build -i ./base-tw.css -o ./out/output.css  # Set your specific paths
