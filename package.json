@@ -1,0 +1,16 @@
+{
+  "name": "Tailwind Base",
+  "version": "1.0.0",
+  "description": "Your project description",
+  "main": "index.js",
+  "scripts": {
+    "install-latest": "npm install postcss@latest postcss-cli@latest tailwindcss@latest --save-dev",
+    "build:css": "postcss ./src/styles.css -o ./dist/output.css",
+    "watch:css": "postcss ./src/styles.css -o ./dist/output.css --watch",
+    "start": "your-start-command-here"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {}
+}
