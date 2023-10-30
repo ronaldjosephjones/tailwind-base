@@ -62,7 +62,6 @@
     code {
         @apply bg-slate-100 text-slate-700 py-1 px-2 text-xs rounded-sm border-slate-200 border;
     }
-    /* Row Class */
     .row {
         @apply grid grid-cols-12 gap-4 max-w-5xl mx-auto lg:gap-8;
     }
