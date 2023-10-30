@@ -1,4 +1,5 @@
 module.exports = {
+  content: ["./*.{css}"],
   theme: {
     fontFamily: {
       sans: "var(--font-family)",
