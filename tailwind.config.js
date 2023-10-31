@@ -4,6 +4,20 @@ module.exports = {
     fontFamily: {
       sans: "var(--font-family)",
     },
+      //we can turn things off in here to lower file sizes
+      corePlugins: {
+          // Spacing
+          padding: false,
+          margin: false,
+          space: false,
+ 
+          // Interactivity
+          cursor: false,
+          pointerEvents: false,
+          resize: false,
+          userSelect: false,
+          
+        },
     extend: {
       colors: {
         brand: {
