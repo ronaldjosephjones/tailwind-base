@@ -24,7 +24,7 @@ jobs:
 
       # Compile Tailwind CSS
       - name: Compile Tailwind CSS
-        run: npx tailwindcss build -i ./base-tw.css -o ./out/output.css  # Set your specific paths
+        run: npx tailwindcss build -i ./base-tw.css -o ./out/output.css --minify  # Set your specific paths
 
       # Auto-commit the compiled Tailwind CSS
       - name: Auto committing minified files
