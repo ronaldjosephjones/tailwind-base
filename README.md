@@ -2,7 +2,8 @@
 
 
 
-#Example Grid with Friendly Class Names
+### Example Grid with Friendly Class Names
+
 ```css
   .row {
     gap:2rem;
