@@ -10,6 +10,7 @@
     --brand-accent:#e60011;
     --nav-brand-color:var(--brand-default);
     --nav-brand-color-dark:var(--brand-dark);
+    --white:white;
 }
 
 @layer base {
